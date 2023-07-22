@@ -6,7 +6,7 @@ import torch.jit
 sampleData = './sampledata/sample.xlsx'
 LIWC_xfeatureList = ['Analytic','Clout','Authentic','Sixltr','ppron','ipron','negate','posemo','negemo','anx','anger','sad','cogproc','risk','focuspast','focuspresent','focusfuture','motion','space','time','nonflu','filler']
 
-torch_model = torch.jit.load("./models/Deception Model_torch.pt")
+torch_model = torch.jit.load("./models/DeceptionModel_torch.pt")
 
 df = pd.read_excel(sampleData)
 X = np.array(df.loc[:,LIWC_xfeatureList])

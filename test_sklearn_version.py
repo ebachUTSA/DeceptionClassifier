@@ -15,4 +15,3 @@ df['y_preds_test'] = y_preds[:, 1]
 
 for index,row in df.iterrows():
     print(row['positiveClassProbability'],'<->',row['y_preds_test'])
-#### END SCRIPT ###
