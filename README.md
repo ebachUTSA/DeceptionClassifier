@@ -13,7 +13,7 @@ I have provided two sample python scripts demonstrating how to load these models
 by installing them with the requirements.txt file: e.g. - pip install -r requirements.txt (I recommend doing this in a virtual environment for python, such
 as venv).
 
-These models are available under are commons license that allows largely unrestricted use.
+These models are available under the ASL license that provisions use for non-commercial academic research (see license for more information).
 
 # Assumptions and Considerations for Use
 I recommend reading the original paper referenced above to fully understand how this model was developed. However, in lieu of this, it is important
@@ -25,4 +25,4 @@ to understand that usage of this model carries with it some assumptions.
 4) - Linguistic Inquiry Word Count (LIWC) values from the LIWC 2015 dictionary. These are the input feature space values originally used to develop these models. Newer and more complex models have been developed with greater performance and without the licensing limitation of having to use LIWC features: See next section for more.
 
 # Commercialized models
-Improved models covering semantic, phonetic, and mixed-modality feature spaces have been developed commercially that do not require LIWC input features, can handle shorter responses, and have been validated in a greater range of contexts. Please contact ericbachura@arche-ai.com directly for more information.
+Commercialized models of a non-derivative nature (created separately and functionally dissimilar) that can use semantic, phonetic, and mixed-modality feature spaces have been developed by the creator of these models. These commercially available models do not require LIWC input features, can handle shorter responses, and have been validated in a greater range of contexts. Please contact ericbachura@arche-ai.com directly for more information.
