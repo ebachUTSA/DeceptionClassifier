@@ -5,7 +5,7 @@ This repository holds the deception model built in support of an academic resear
 
 Please consider citing the original work in which this model was first developed and used:
 
-Hyde S., Bachura E., Bundy J., Greatz R., Sanders WM G., (forthcoming). The tangled webs we weave: Examining the effects of CEO deception on analyst recommendations. *The Strategic Management Journal*
+Hyde S., Bachura E., Bundy J., Gretz R., Sanders WM G., (2023). The tangled webs we weave: Examining the effects of CEO deception on analyst recommendations. *The Strategic Management Journal*
 
 # Using the models
 Two versions of the model can be found in the models directory. One of these is a scikit-learn version of the model that has been serialized
